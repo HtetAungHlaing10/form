@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <style>
+        .form-control:focus{
+            border: none;
+            box-shadow: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+        <form class="mt-5 col-6 m-auto ">
+            <h1 class="text-center fw-bold"> Fill  the form.<br> It's easy!</h1>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6 ">
+                    <input type="text" class="form-control rounded-0 border-start-0 border-end-0 border-top-0 "
+                           placeholder="First Name" required>
+                </div>
+
+                <div class="col-md-6">
+                    <input type="text" class="form-control rounded-0 border-start-0 border-end-0 border-top-0 "
+                           placeholder="Last Name" required>
+                </div>
+            </div>
+
+            <div class="col-md-12 mt-4">
+                <input type="text" class="form-control rounded-0 border-start-0 border-end-0 border-top-0"
+                       placeholder="Email" required>
+            </div>
+
+            <div class="col-md-12 mt-4">
+                <input type="number" class="form-control rounded-0 border-start-0 border-end-0 border-top-0"
+                       placeholder="Phone Number" required>
+            </div>
+
+            <div class="col-md-12 mt-4">
+                <input type="text" class="form-control rounded-0 border-start-0 border-end-0 border-top-0"
+                       placeholder="Address">
+            </div>
+
+            <div class=" mt-4 row justify-content-center">
+                <div class="col-md-6">
+                    <p class="text-muted ps-2 pt-2">Date Of Birth</p>
+                </div>
+                <div class="col-md-6">
+                    <input type="date" id="date" class="col-md-6 form-control " placeholder="Date">
+                </div>
+            </div>
+
+            <div class="row justify-content-center ps-2">
+                <p class="col-md-6 pt-4 text-muted"> Select Course</p>
+                <div class="form-check mt-4 col-md-2">
+                    <input class="form-check-input" type="radio" name="radio" id="">
+                    <label class="form-check-label text-muted" >
+                        Course1
+                    </label>
+                </div>
+
+                <div class="form-check mt-4 col-md-2">
+                    <input class="form-check-input" type="radio" name="radio" id="">
+                    <label class="form-check-label text-muted" >
+                        Course2
+                    </label>
+                </div>
+
+                <div class="form-check mt-4 col-md-2">
+                    <input class="form-check-input" type="radio" name="radio" id="">
+                    <label class="form-check-label text-muted" >
+                        Course3
+                    </label>
+                </div>
+
+                <button class="btn btn-danger mt-4">Send</button>
+
+            </div>
+
+        </form>
+</div>
+<script  rel="stylesheet" type="text/css" herf="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
